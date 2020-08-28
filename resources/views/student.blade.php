@@ -21,8 +21,12 @@
         <a class="nav-link" href="/dash">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="/studdata" class="list-group-item list-group-item-action bg-light">STUDENT TABLE</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="#">Attendance</a>
       </li>
+    
       <li class="nav-item">
         <a class="nav-link" href="#">Marks</a>
       </li>

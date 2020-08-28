@@ -21,6 +21,9 @@
         <a class="nav-link" href="/dash">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
+        <a href="/teachdata"class="nav-link">TEACHER TABLE</a>
+        </li>
+      <li class="nav-item">
         <a class="nav-link" href="#">Student List</a>
       </li>
       <li class="nav-item">

@@ -27,8 +27,6 @@
         <a href="/admin" class="list-group-item list-group-item-action bg-light">ADMIN</a>
         <a href="/stud" class="list-group-item list-group-item-action bg-light">STUDENT</a>
         <a href="/teach" class="list-group-item list-group-item-action bg-light">TEACHER</a>
-          <a href="/studdata" class="list-group-item list-group-item-action bg-light">STUDENT TABLE</a>
-            <a href="/teachdata" class="list-group-item list-group-item-action bg-light">TEACHER TABLE</a>
       </div>
     </div>
 
