@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::view('/docreg','docreg');
+Route::post('/docreg','docreg@store');
+Route::view('/userreg','usereg');
+Route::post('/userreg','usereg@store');
+Route::view('/userlog','userlogin');
+Route::view('/doclog','doclogin');
+Route::view('/userdash','userdash');
+Route::view('/docdash','docdash');
+Route::get('/userdash','docreg@display');

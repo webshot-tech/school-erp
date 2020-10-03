@@ -1,0 +1,112 @@
+body{
+    font-family: 'Roboto' sans-serif;
+    background-color: #F2F3F4;
+  }
+  *{
+    margin: 0;padding: 0;text-decoration: none;list-style: none;
+  }
+  #text1{
+    color: #FFF;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 20.5px;
+    font-weight: 750;
+    letter-spacing: 0.5px;
+  }
+  #text1 span{
+    color: #E59866;
+    letter-spacing: 0.5px;
+  }
+  #sidebarCollapse{
+    color:white;
+    width:45px;
+  }
+  #sidebarCollapse:hover{
+   background-color: #21618C;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#042331;
+    overflow-x: hidden;
+    transition: all .5s ease;
+    box-shadow: 7px 2px 5px 0px rgba(0,0,0,0.75);
+    
+  }
+  header{
+    font-size: 25px;
+    color:white;
+    text-align:center;
+    line-height:68px;background: #063146;
+    user-select: none;
+    font-weight: 700;
+  
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top:16px;
+    right:10px;
+   transition: all .5s ;
+    background-color:#21618C;
+    cursor: pointer;
+  
+  }
+  #close{
+  color:white;
+  font-size: 15px;
+  transition: all .5s ;
+  }
+  #close:hover{
+    background-color: red;
+    transition: all .5s ;
+  }
+  .sidenav ul a {
+    color:white;
+    display: block;
+    width:100%;
+    line-height:63px;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid #1C2833 ;transition: .4s;
+  }
+  ul li:hover a{
+    padding-left: 50px;
+    text-decoration: none;
+   
+  }
+  .sidenav ul a:hover{
+    background-color: #2E86C1;
+    transition: all .5s ;
+  }
+  .sidenav ul a i{
+    margin-right: 7px;
+     }
+  .sidenav ul a span{
+  margin-right: 12px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  ul li .a,#navbarDropdown{
+    color:white;
+    font-size:16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  #ab{
+    color:black;border-bottom: none;font-size:20px; width:260px;height:65px;
+  }
+  #ab:hover{
+    color:black;
+    background-color: white;
+  
+  }
